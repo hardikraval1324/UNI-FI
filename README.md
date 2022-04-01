@@ -1,2 +1,2 @@
 # UNI-FI
-University Application 
+University Application for minor project
