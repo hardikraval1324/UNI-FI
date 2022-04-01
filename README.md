@@ -1,2 +1,2 @@
 # UNI-FI
-university application 
+University Application 
