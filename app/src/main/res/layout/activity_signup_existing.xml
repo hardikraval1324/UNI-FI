@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_unifi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Existing Students"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EName"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:boxBackgroundColor="#1C6F77"
+        app:boxStrokeColor="#FFFFFF"
+        app:boxStrokeWidth="1dp"
+        app:hintTextColor="#FFFFFF">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EPhoneNum"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/password_vector"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Phone number"
+        android:paddingLeft="10dp"
+        app:boxBackgroundColor="#1C6F77"
+        app:hintTextColor ="#FFFFFF"
+        app:boxStrokeColor ="#FFFFFF"
+        android:paddingRight="10dp"
+        app:boxStrokeWidth="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EEmail"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        app:boxBackgroundColor="#1C6F77"
+        app:hintTextColor ="#FFFFFF"
+        app:boxStrokeColor ="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/password_vector"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp"
+        app:boxStrokeWidth="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EPassword"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        app:boxBackgroundColor="#1C6F77"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/password_vector"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Password"
+        app:hintTextColor ="#FFFFFF"
+        app:boxStrokeColor ="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:boxStrokeWidth="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EConfirmPassword"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:drawableLeft="@drawable/password_vector"
+        app:boxBackgroundColor="#1C6F77"
+        app:hintTextColor ="#FFFFFF"
+        app:boxStrokeColor ="#FFFFFF"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Confirm Password"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:boxStrokeWidth="0dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/createAccount2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#AEF1DD"
+        android:text="Create Account"
+        android:textColor="#1A6A6E"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Already have an Account ? "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/Signin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Sign in"
+            android:textColor="#AEF1DD" />
+    </LinearLayout>
+
+
+</LinearLayout>

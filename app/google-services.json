@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971236064187",
+    "project_id": "uni-fi-96e0d",
+    "storage_bucket": "uni-fi-96e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971236064187:android:ca08f30c176f0abbaea29e",
+        "android_client_info": {
+          "package_name": "com.example.unifi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971236064187-1g12quvaf9at4mb61o7unssbeed8ej5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3OnO2CdcKrOz7HXEsgU5RnvRDwet6LK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971236064187-1g12quvaf9at4mb61o7unssbeed8ej5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

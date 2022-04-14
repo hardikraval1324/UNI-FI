@@ -29,7 +29,7 @@
         android:background="@drawable/textview_bg"
         android:drawableLeft="@drawable/email_vector"
         android:fontFamily="@font/roboto_bold"
-        android:hint="  Username"
+        android:hint="  Email"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textAlignment="textStart"
