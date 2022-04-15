@@ -10,7 +10,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_bg">
 
-
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
@@ -44,7 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:id="@+id/Name"/>
+            android:id="@+id/Name"
+           />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -114,11 +114,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:id="@+id/userPassword"
-             />
+            android:id="@+id/userPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <com.google.android.material.textfield.TextInputLayout
 
@@ -175,6 +173,5 @@
             android:text="Sign in"
             android:textColor="#AEF1DD" />
     </LinearLayout>
-
 
 </LinearLayout>

@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
-    tools:context=".signUP_Cat">
-
+    tools:context=".signup_cat">
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
@@ -80,4 +79,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.432" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
