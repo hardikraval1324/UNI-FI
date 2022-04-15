@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UniFiKotlin">
+        <activity android:name=".scan"></activity>
+        <activity android:name=".event" />
         <activity
             android:name=".splashscreen"
             android:exported="false" />
