@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity()
         carouselView!!.pageCount=imageArray.size
         carouselView!!.setImageListener(imageListener)
 
+
+        supportActionBar?.hide()
+
     }
     var imageListener = ImageListener {position, imageView -> imageView.setImageResource(imageArray[position]) }
 }
