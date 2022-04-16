@@ -48,7 +48,7 @@ class signup_aspring : AppCompatActivity() {
                         databaseReference.child(uid).setValue(user).addOnCompleteListener{
                             if(it.isSuccessful){
                                 binding.Name.text?.clear()
-                                binding.PhoneNum.text?.clear()
+                                 binding.PhoneNum.text?.clear()
                                 binding.Email.text?.clear()
                                 binding.userPassword.text?.clear()
                                 Toast.makeText(this, "Successfully updated profile", Toast.LENGTH_SHORT).show()
