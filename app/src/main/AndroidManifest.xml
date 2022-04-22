@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UniFiKotlin">
+        <activity android:name=".scan"></activity>
+        <activity android:name=".event" />
         <activity
             android:name=".Menu"
             android:exported="false" />
@@ -22,28 +24,28 @@
             android:exported="false" />
         <activity
             android:name=".splashscreen"
-            android:exported="false" />
-        <activity
-            android:name=".signup_existing"
-            android:exported="false" />
-        <activity
-            android:name=".signup_cat"
-            android:exported="false" />
-        <activity
-            android:name=".signup_aspring"
-            android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Auth.signup_existing"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.signup_cat"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.signup_aspring"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
 
         <meta-data
             android:name="preloaded_fonts"
