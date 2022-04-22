@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniFiKotlin">
         <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".aspring_account"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
             android:name=".splashscreen"
             android:exported="false" />
         <activity
