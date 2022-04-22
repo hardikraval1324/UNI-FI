@@ -1,11 +1,10 @@
-package com.example.uni_fikotlin
+package com.example.uni_fikotlin.Auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
+import com.example.uni_fikotlin.R
 
 class signup_cat : AppCompatActivity() {
     private lateinit var signup_aspring: Button
@@ -18,7 +17,7 @@ class signup_cat : AppCompatActivity() {
 
         signup_aspring.setOnClickListener {
 
-            startActivity(Intent(this, com.example.uni_fikotlin.signup_aspring::class.java))
+            startActivity(Intent(this, com.example.uni_fikotlin.Auth.signup_aspring::class.java))
         }
     }
 }

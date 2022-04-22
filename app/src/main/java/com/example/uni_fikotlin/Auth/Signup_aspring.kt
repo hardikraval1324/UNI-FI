@@ -1,4 +1,4 @@
-package com.example.uni_fikotlin
+package com.example.uni_fikotlin.Auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,7 +11,6 @@ import com.example.uni_fikotlin.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import java.util.jar.Attributes
 
 class signup_aspring : AppCompatActivity() {
     private lateinit var already_sigin : TextView
@@ -64,7 +63,7 @@ class signup_aspring : AppCompatActivity() {
                     firebaseAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener{
                         if(it.isSuccessful){
 
-                            startActivity(Intent(this,login::class.java))
+                            startActivity(Intent(this, login::class.java))
                         }
                         else{
                             Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()

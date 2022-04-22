@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".signup_existing"
+            android:name=".Auth.signup_existing"
             android:exported="false" />
         <activity
-            android:name=".signup_cat"
+            android:name=".Auth.signup_cat"
             android:exported="false" />
         <activity
-            android:name=".signup_aspring"
+            android:name=".Auth.signup_aspring"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Auth.login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
