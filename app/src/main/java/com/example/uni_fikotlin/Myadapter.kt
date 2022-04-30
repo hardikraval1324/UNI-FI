@@ -1,11 +1,12 @@
 package com.example.uni_fikotlin
 
-import android.app.usage.UsageEvents
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.uni_fikotlin.models.event_listitems
+
 class Myadapter(private val eventlist : ArrayList<event_listitems>) :
     RecyclerView.Adapter<Myadapter.MyViewHolder>() {
 
@@ -25,7 +26,7 @@ class Myadapter(private val eventlist : ArrayList<event_listitems>) :
     }
 
     class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
-        val Event : TextView = itemView.findViewById(R.id.event)
+        val Event : TextView = itemView.findViewById(R.id.event_title)
 
     }
 }

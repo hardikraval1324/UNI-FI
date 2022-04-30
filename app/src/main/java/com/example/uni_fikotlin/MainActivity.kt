@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity()
         imageArray.add(R.drawable.b)
         imageArray.add(R.drawable.c)
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.event.setOnClickListener{

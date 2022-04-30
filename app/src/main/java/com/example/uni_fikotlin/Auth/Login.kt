@@ -3,6 +3,7 @@ package com.example.uni_fikotlin.Auth
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -32,7 +33,13 @@ class login : AppCompatActivity() {
 
             val email = binding.username.text.toString()
             val password = binding.password.text.toString()
-
+            val mAuth = FirebaseAuth.getInstance()
+            if(mAuth != null){
+                startActivity(Intent(this, MainActivity::class.java))
+                Log.i("hai log", mAuth.toString())
+            }else{
+                Log.e("no auth", mAuth.toString())
+            }
             if( email.isNotEmpty() && password.isNotEmpty() ){
 
                     firebaseAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener{

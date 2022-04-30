@@ -1,10 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="Theme.UniFiKotlin" parent="Theme.AppCompat.Light.NoActionBar">
-=======
-    <style name="Theme.UniFiKotlin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
->>>>>>> 5b696b79e6fac0dc69670d54769d86d388eb9a42
+
+    <style name="Theme.UniFiKotlin" parent="Theme.AppCompat.Light.NoActionBar" tools:ignore="DuplicateDefinition">
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
