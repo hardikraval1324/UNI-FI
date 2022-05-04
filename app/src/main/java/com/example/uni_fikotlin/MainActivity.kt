@@ -53,11 +53,11 @@ class MainActivity : AppCompatActivity()
         supportActionBar?.hide()
 
 //
-        userRecyclerview = findViewById(R.id.eventlist)
-        userRecyclerview.layoutManager = LinearLayoutManager(this)
-        userRecyclerview.setHasFixedSize(true)
-        userarraylist = arrayListOf<event_listitems>()
-        getEventData()
+//        userRecyclerview = findViewById(R.id.eventlist)
+//        userRecyclerview.layoutManager = LinearLayoutManager(this)
+//        userRecyclerview.setHasFixedSize(true)
+//        userarraylist = arrayListOf<event_listitems>()
+//        getEventData()
         //
     }
     //
